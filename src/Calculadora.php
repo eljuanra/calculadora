@@ -38,7 +38,7 @@
         case "multiplicacion": $resultado = $calculadora->multiplicacion($numero_1, $numero_2);break;
         case "division": $resultado = $calculadora->division($numero_1,$numero_2);break;
         case "raiz": $resultado = $calculadora->raiz($numero_1);break;
-        default: echo "Operación no válida";
+        default:;
     };
 
     echo "<h2>El resultado de la $operacion de $numero_1 y $numero_2 es $resultado</h2>";
